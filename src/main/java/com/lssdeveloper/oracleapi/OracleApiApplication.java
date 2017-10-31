@@ -66,13 +66,6 @@ public class OracleApiApplication implements CommandLineRunner {
         System.out.println("************************************************************");
         System.out.println("************************************************************");
 
-        //retorna um cliente
-        cli = clienteRepository.findOne(3L);
-        System.out.println("Localiza o cliente de código 3 : " + cli);
-        
-        System.out.println("************************************************************");
-        System.out.println("************************************************************");
-        
         System.out.println("Pronto-Fim");
 
         exit(0);
